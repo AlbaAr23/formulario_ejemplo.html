@@ -18,30 +18,65 @@
             <!-- poner una contraseña  -->
             <label for="contraseña">Contraseña</label><br>
             <input type="contraseña" id="contraseña" placeholder="contraseña"><br>
+            
+            <!-- telefono -->
+            <label for="telefono">telefono</label><br>
+            <input type="tel" id="telefono" placeholder="telefono"><br>
+            
+            <!-- edad -->
+            <label for="edad">edad</label><br>
+            <input type="number" id="edad" placeholder="edad"><br>
            
-            <!-- departamento -->
+            <!-- fecha de nacimiento -->
+            <label for="fecha de nacimiento">fecha de nacimiento</label><br>
+            <input type="date" id="fecha de nacimiento" placeholder="fecha de nacimiento"><br>
+           
+            <!-- departamento type radio -->
             <h2>Selecciona tipo de juego</h2>
-            <input type="radio" id="radio-fps" name="juegos">
+            <input type="radio" id="radio-fps" name="juegos" value="FPS">
             <label for="radio-fps">FPS</label>
             <br>
 
-            <input type="radio" id="radio-plataforma" name="juegos">
+            <input type="radio" id="radio-plataforma" name="juegos" value="plataformas">
             <label for="radio-plataforma">Plataformas</label>
             <br>
 
-            <input type="radio" id="radio-deportes" name="juegos">
+            <input type="radio" id="radio-deportes" name="juegos" value="deportes">
             <label for="radio-deportes">Deportes</label>
             <br>
 
-            <input type="radio" id="carreras" name="juegos">
+            <input type="radio" id="carreras" name="juegos" value="carreras">
             <label for="carreras">Carreras</label>
             <br>
+            <label for="opinion">Escribe tu puta opinion:</label>
+            <textarea name="opinion" id="opinion" rows="10" cols="50">Me encanta este formulario refacherito.
+            </textarea>
             <br>
-            <!-- submid -->
+            <form>
+                <label for="juego">Elije un juego</label>
+                <select> name="juegos" id="juegos">
+                    <option value="FPS">FPS</option>
+                    <option value="plataforma">plataforma</option>
+                    <option value="deportes">deportes</option>
+                    <option value="carreras">carreras</option>
+                </select>
+            </form>
+            <br>
+            <!-- departamento checkbox -->
+            <h2>Cosas que me encantan</h2>
+            <input type="checkbox" name="programacion" id="programacion" name="juegos">
+            <laber for="programacion">programacion</laber>
+            <br>
+            <input type="checkbox" name="leagueoflegends" id="leagueoflegends" name="juegos">
+            <laber for="leagueoflegends">leagueoflegends</laber>
+            <br>
+            <input type="checkbox" name="fumar" id="fumar" name="juegos">
+            <laber for="fumar">fumar</laber>
+            <br>
+
             <button type="submid">Enviar Formulario</button>
             <!-- tambien se puede hacer con un imput -->
 
         </form>
-        
     </body>
 </html>
